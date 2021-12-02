@@ -59,7 +59,7 @@ body.left {
 }
 
 header {
-  background-image: url("/images/header__Bg.png");
+  background-image: url("header__Bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
