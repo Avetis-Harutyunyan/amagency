@@ -69,11 +69,13 @@ header {
 .header__section {
   position: fixed;
   top: 0;
-  left: 0;
+  left: 50%;
   width: 101%;
   height: 80px;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
   z-index: 999;
 }
 
