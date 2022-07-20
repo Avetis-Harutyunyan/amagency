@@ -1,0 +1,2 @@
+"use strict";var e,t,c;e=document.querySelector("#burger"),t=document.querySelector("#navSide"),c=document.querySelector("body"),e.addEventListener("click",(function(){t.classList.toggle("active"),e.classList.toggle("close"),c.classList.toggle("left")})),window.addEventListener("scroll",(function(){this.document.querySelector(".header__section").classList.toggle("nav_change",window.scrollY>130),this.document.querySelector(".toTop").classList.toggle("active",window.scrollY>600)}));
+//# sourceMappingURL=all.js.map
